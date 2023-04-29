@@ -1973,7 +1973,7 @@ r56rp_airborne_rocketry = {
 		}
 
 		path = {
-			leads_to_tech = aa_rocket_rails
+			leads_to_tech = r56rp_aa_rocket_rails
 			research_cost_coeff = 1
 		}
 
@@ -2009,7 +2009,7 @@ r56rp_airborne_rocketry = {
 		}
 	}
 
-aa_rocket_rails = {
+r56rp_aa_rocket_rails = {
 #Moved from Engineering. Will unlock with rocketry 1.
 		enable_equipment_modules = {
 			aa_rocket_rails
@@ -2024,7 +2024,7 @@ aa_rocket_rails = {
 		}
 
 		path = {
-			leads_to_tech = aa_rocket_rails_2
+			leads_to_tech = r56rp_aa_rocket_rails_2
 			research_cost_coeff = 1
 		}
 
@@ -2054,7 +2054,7 @@ aa_rocket_rails = {
 			}
 		}
 	}
-aa_rocket_rails_2 = {
+r56rp_aa_rocket_rails_2 = {
 	#Moved from Engineering. Earliest guided missiles like this, that werent simple MCLOS were in 1954.
 		enable_equipment_modules = {
 			guided_aa_rocket_rails

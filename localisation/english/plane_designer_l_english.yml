@@ -437,10 +437,10 @@
  guided_AA_rocket_rails:0 "Air-to-Air Missiles"
  guided_AA_rocket_rails_desc:0 "Primitive remote guided air-to-air missiles."
  #Tech
- aa_rocket_rails:0 "Air-to-Air Rockets"
- aa_rocket_rails_desc:0 "Current day enemy Bombers are more and more resilitent to small and medium calibre weapons. To remedy this, we can arm our Fighters with large calibre unguided rockets."
- aa_rocket_rails_2:0 "Air-to-Air Missiles"
- aa_rocket_rails_2_desc:0 "By installing state-of-the-art electronics in our rockets we may guide them to enemy air targets dramatically increasing the chance to hit."
+ r56rp_aa_rocket_rails:0 "Air-to-Air Rockets"
+ r56rp_aa_rocket_rails_desc:0 "Current day enemy Bombers are more and more resilitent to small and medium calibre weapons. To remedy this, we can arm our Fighters with large calibre unguided rockets."
+ r56rp_aa_rocket_rails_2:0 "Air-to-Air Missiles"
+ r56rp_aa_rocket_rails_2_desc:0 "By installing state-of-the-art electronics in our rockets we may guide them to enemy air targets dramatically increasing the chance to hit."
  
  ## Warlider's Expanded Air Shite
  #aa_cannon_2:0 
@@ -459,6 +459,9 @@
  r56rp_engine_upgrade_heavy:0 "Engine Power"
  r56rp_armor_upgrade_heavy:0 "Additional Armor"
  r56rp_number_upgrade_heavy:0 "Additional Engines"
+
+ ##New Equipment Categories for Air Designer
+ EQ_MOD_CAT_interceptor_weapon_TITLE:0 "Interceptor Weapons"
 
  #Engine and Armor Upgrade Tech Localisation
  r56rp_engine_upgrade_1:0 "Direct Fuel Injection"
@@ -504,6 +507,11 @@
  r56rp_engine_turboprop_1x_desc:0 "By taking a gas turbine and using it to drive a propeller, we can reach a much better power-to-weight ratio than a piston driven engine at the cost of lower top speed compared to a Jet engine."
  r56rp_engine_skincooled_1x:0 "Evaporative-cooled Piston Engine"
  r56rp_engine_skincooled_1x_desc:0 "A radical idea. Coolant is kept pressurized in the engine, which allows it to remain liquid even when exceeding its temperature boiling point. Coolant takes heat from the engine, then dumps it into special tanks in the wings where in turn the heat can leave into the atmoshpere. This solution promises an almost entirely drag-less cooling system, however since almost the entire plane is used to cool the engine, any hits received will be deadly to the propulsion system."
+ r56rp_engine_rocket_early_1x:0 "Early Rocket Engine"
+ r56rp_engine_rocket_early_1x_desc:0 "WIP"
+ r56rp_engine_rocket_late_1x:0 "Late Rocket Engine"
+ r56rp_engine_rocket_late_1x_desc:0 "WIP"
+
  ##Engine Tech
  r56rp_jet_engines:0 "Jet Engines"
  r56rp_jet_engines_desc:0 ""
