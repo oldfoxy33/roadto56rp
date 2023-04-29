@@ -756,7 +756,7 @@ technologies = {
 			leads_to_tech = photo_reconnaisance
 			research_cost_coeff = 1
 		}
-		
+	
 		categories = {
 			air_equipment
 			plane_modules_tech
@@ -835,8 +835,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-
-
 		path = {
 			leads_to_tech = aa_hmg
 			research_cost_coeff = 1
@@ -873,9 +871,7 @@ technologies = {
 			self_sealing_fuel_tanks_small
 			self_sealing_fuel_tanks_medium
 			self_sealing_fuel_tanks_large
-			armor_plate_small
-			armor_plate_medium
-			armor_plate_large
+			#all my homies hate plates
 		}
 		
 		research_cost = 1
@@ -1004,8 +1000,8 @@ technologies = {
 	r56rp_aa_hmg_2 = {
 
 		enable_equipment_modules = {
-			r56rp_aircraft_hmg_3_1x
 			r56rp_aircraft_hmg_3_2x
+			r56rp_aircraft_hmg_3_4x
 		}
 		
 		research_cost = 1
@@ -2098,6 +2094,8 @@ aa_rocket_rails_2 = {
 			}
 		}
 	}
+
+	
 	r56rp_guided_anti_ship_bomb = {
 	#Things like Fritz X. Making an RC glide bomb IS easier than a damned guided missile.
 		enable_equipment_modules = {
@@ -2145,7 +2143,7 @@ aa_rocket_rails_2 = {
 		}
 	}
 
-guided_anti_ship_missile = {
+	guided_anti_ship_missile = {
 	#Moved from Engineering.
 		enable_equipment_modules = {
 			guided_anti_ship_missile
@@ -2185,4 +2183,5 @@ guided_anti_ship_missile = {
 			}
 		}
 	}
+
 }

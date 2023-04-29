@@ -14,7 +14,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_EMI_r56rp_engine_watercooled_1x"
-		textureFile = "gfx/interface/equipmentdesigner/planes/modules/r56rp_DUMMY_MODULE.dds"
+		textureFile = "gfx/interface/equipmentdesigner/planes/modules/r56rp_engine_watercooled_1x.dds"
 		legacy_lazy_load = no
 	}
 
@@ -26,7 +26,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_EMI_r56rp_engine_jet_1x"
-		textureFile = "gfx/interface/equipmentdesigner/planes/modules/r56rp_DUMMY_MODULE.dds"
+		textureFile = "gfx/interface/equipmentdesigner/planes/modules/r56rp_engine_jet_1x.dds"
 		legacy_lazy_load = no
 	}
 
@@ -63,6 +63,54 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_EMI_r56rp_guided_anti_ship_bomb_1x"
 		textureFile = "gfx/interface/equipmentdesigner/planes/modules/r56rp_DUMMY_MODULE.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_r56rp_material_wood"
+		textureFile = "gfx/interface/equipmentdesigner/planes/modules/r56rp_material_wood.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_r56rp_material_aluminium_basic"
+		textureFile = "gfx/interface/equipmentdesigner/planes/modules/r56rp_material_aluminium_basic.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_r56rp_engine_rocket_early_1x"
+		textureFile = "gfx/interface/equipmentdesigner/planes/modules/r56rp_engine_rocket_early_1x.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_r56rp_engine_rocket_late_1x"
+		textureFile = "gfx/interface/equipmentdesigner/planes/modules/r56rp_engine_rocket_late_1x.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_r56rp_wing_flyingwing"
+		textureFile = "gfx/interface/equipmentdesigner/planes/modules/r56rp_wing_flyingwing.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_r56rp_wing_monoplane_straight"
+		textureFile = "gfx/interface/equipmentdesigner/planes/modules/r56rp_wing_monoplane_straight.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_r56rp_wing_monoplane_swept"
+		textureFile = "gfx/interface/equipmentdesigner/planes/modules/r56rp_wing_monoplane_swept.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_r56rp_wing_biplane"
+		textureFile = "gfx/interface/equipmentdesigner/planes/modules/r56rp_wing_biplane.dds"
 		legacy_lazy_load = no
 	}
 
