@@ -514,7 +514,9 @@
 
  ##Engine Tech
  r56rp_jet_engines:0 "Jet Engines"
- r56rp_jet_engines_desc:0 ""
+ r56rp_jet_engines_desc:0 "WIP"
+ r56rp_jet_engines_2:0 "Reheating Jet Engines"
+ r56rp_jet_engines_2_desc:0 "WIP"
  
  ##Wing Modules
  r56rp_wing_monoplane_straight:0 "Straight Wing Monoplane"
@@ -546,16 +548,22 @@
  r56rp_guided_anti_ship_bomb:0 "Anti-Ship Glide Bomb"
  r56rp_guided_anti_ship_bomb_desc:0 "By allowing our Bombers to remotely guide their bombs, we may reach unprecedented levels of accuracy against surface targets. This will aid our Bombers in assaulting naval targets from a safe altitude."
 
- ##Cannons
+ ##Anti-Air Weapons
  #Modules
  r56rp_aircraft_cannon_3_1x:0 "1x Revolving Cannon"
  r56rp_aircraft_cannon_3_1x_desc:0 "Single high-firerate aircraft cannon."
  r56rp_aircraft_cannon_3_2x:0 "2x Revolving Cannon"
  r56rp_aircraft_cannon_3_2x_desc:0 "A pair of high-firerate aircraft cannons."
+ r56rp_aircraft_hmg_3_2x:0 "2x Fast-Firing Heavy Machine Gun"
+ r56rp_aircraft_hmg_3_2x_desc:0 "A pair of Heavy Machine Guns with improved feed mechanisms spewing out led at a staggering pace."
+ r56rp_aircraft_hmg_3_4x:0 "4x Fast-Firing Heavy Machine Gun"
+ r56rp_aircraft_hmg_3_4x_desc:0 "A quartet of Heavy Machine Guns with improved feed mechanisms spewing out led at a staggering pace."
  #Tech
  r56rp_aa_cannon_3:0 "Revolving Cannon"
  r56rp_aa_cannon_3_desc:0 "With airplanes getting faster and faster, our weaponry must keep up. Window of opportunity to score hits on the enemy planes now measure in tenths of a second, and old weaponry cannot keep up. By using multiple chambers to load a single barrel we can drastically increase the firerate of our cannons."
- 
+ r56rp_aa_hmg_2:0 "Fast-Firing Heavy Machine Gun"
+ r56rp_aa_hmg_2_desc:0 "While our previous Heavy Machine Guns have proven to be capable of taking down enemy planes, the volume of fire was found insufficient. Increasing the amount of lead we throw down range heightens our chance to hit as well as deals more damage to more resilient and less maneuverable enemy units."
+  
  ##Schrage Musik
  #Modules
  r56rp_aircraft_cannon_4_1x:0 "Schräge Musik"

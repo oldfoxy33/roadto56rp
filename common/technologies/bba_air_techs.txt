@@ -875,11 +875,11 @@ technologies = {
 		}
 		
 		research_cost = 1
-		start_year = 1936
+		start_year = 1940
 
 		folder = {
 			name = bba_air_techs_folder
-			position = { x = 3 y = 5 }
+			position = { x = 2 y = 5 }
 		}
 
 		categories = {
@@ -912,7 +912,51 @@ technologies = {
 
 		enable_equipment_modules = {
 			r56rp_material_hybrid
-			r56rp_engine_skincooled_1x
+		}
+		
+		research_cost = 1
+		start_year = 1942
+
+		folder = {
+			name = bba_air_techs_folder
+			position = { x = 2 y = 7 }
+		}
+
+		path = {
+			leads_to_tech = r56rp_alternative_materials_2
+			research_cost_coeff = 1
+		}
+
+		categories = {
+			air_equipment
+			plane_modules_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				date > "1937.1.1"
+				factor = 1.5
+			}
+			modifier = {
+				date > "1938.1.1"
+				factor = 1.5
+			}
+			modifier = {
+				date > "1939.1.1"
+				factor = 3
+			}
+			modifier = {
+				has_War = yes
+				factor = 3
+			}
+		}
+	}
+
+	r56rp_alternative_materials_2 = {
+
+		enable_equipment_modules = {
+			r56rp_material_aluminium_high
 		}
 		
 		research_cost = 1
@@ -920,13 +964,18 @@ technologies = {
 
 		folder = {
 			name = bba_air_techs_folder
-			position = { x = 5 y = 5 }
+			position = { x = 2 y = 10 }
 		}
 
 		categories = {
 			air_equipment
 			plane_modules_tech
 		}
+
+		dependencies = {
+			aluminum_production_2 = 1
+		}
+
 		
 		ai_will_do = {
 			factor = 1
@@ -1236,6 +1285,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		path = {
+			leads_to_tech = range_improvements
+			research_cost_coeff = 1
+		}
+		
 		categories = {
 			air_equipment
 			plane_modules_tech
@@ -1271,10 +1325,15 @@ technologies = {
 	
 		research_cost = 1
 		start_year = 1940
-
+		
 		folder = {
 			name = bba_air_techs_folder
 			position = { x = -1 y = 6 }
+		}
+
+
+		enable_equipment_modules = {
+			r56rp_engine_skincooled_1x
 		}
 
 		on_research_complete = {
@@ -1440,6 +1499,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		path = {
+			leads_to_tech = survivability_studies
+			research_cost_coeff = 1
+		}
+
 		categories = {
 			air_equipment
 			plane_modules_tech
@@ -1490,6 +1554,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		path = {
+			leads_to_tech = r56rp_alternative_materials
+			research_cost_coeff = 1
+		}
+
 		categories = {
 			air_equipment
 			plane_modules_tech
@@ -1523,7 +1592,7 @@ technologies = {
 	r56rp_armor_upgrade_3 = {
 		
 		research_cost = 1
-		start_year = 1943
+		start_year = 1944
 
 		folder = {
 			name = bba_air_techs_folder
@@ -1623,6 +1692,7 @@ technologies = {
 		enable_equipment_modules = {
 		tank_gas_turbine_engine
 		r56rp_engine_jet_1x
+		r56rp_engine_turboprop_1x
 		}
 
 		folder = {
@@ -1762,11 +1832,11 @@ technologies = {
 		}
 		
 		research_cost = 1
-		start_year = 1936
+		start_year = 1940
 
 		folder = {
 			name = bba_air_techs_folder
-			position = { x = 4 y = 5 }
+			position = { x = -2 y = 5 }
 		}
 
 		categories = {
@@ -1818,23 +1888,11 @@ technologies = {
 
 		folder = {
 			name = bba_air_techs_folder
-			position = { x = 4 y = 3 }
+			position = { x = 2 y = 3 }
 		}
 
-		path = {
-			leads_to_tech = r56rp_alternative_materials
-			research_cost_coeff = 1
-		}
 
-		path = {
-			leads_to_tech = survivability_studies
-			research_cost_coeff = 1
-		}
 
-		path = {
-			leads_to_tech = range_improvements
-			research_cost_coeff = 1
-		}
 
 		categories = {
 			air_equipment
