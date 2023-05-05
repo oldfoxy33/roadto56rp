@@ -1327,7 +1327,7 @@ equipments = {
 				required = yes
 				allowed_module_categories = {
 					fighter_weapon
-					interceptor_weapon
+					tac_weapon
 					cas_weapon
 					nav_bomber_weapon
 					kamikaze_bomber_weapon
@@ -1339,7 +1339,7 @@ equipments = {
 				allowed_module_categories = {
 					recon_camera
 					fighter_weapon
-					interceptor_weapon
+					tac_weapon
 					cas_weapon
 					nav_bomber_weapon
 					kamikaze_bomber_weapon
@@ -1351,7 +1351,7 @@ equipments = {
 				allowed_module_categories = {
 					recon_camera
 					fighter_weapon
-					interceptor_weapon
+					tac_weapon
 					cas_weapon
 					nav_bomber_weapon
 					kamikaze_bomber_weapon
@@ -1557,7 +1557,7 @@ equipments = {
 				allowed_module_categories = {
 					tac_weapon
 					fighter_weapon
-					interceptor_weapon
+					tac_weapon
 					recon_camera
 				}
 			}
@@ -1568,7 +1568,7 @@ equipments = {
 					recon_camera
 					tac_weapon
 					fighter_weapon
-					interceptor_weapon
+					tac_weapon
 					cas_weapon
 					nav_bomber_weapon
 					mine_warfare_offense
@@ -1581,7 +1581,6 @@ equipments = {
 					recon_camera
 					tac_weapon
 					fighter_weapon
-					interceptor_weapon
 					cas_weapon
 					nav_bomber_weapon
 					mine_warfare_offense
@@ -1594,7 +1593,6 @@ equipments = {
 					recon_camera
 					tac_weapon
 					fighter_weapon
-					interceptor_weapon
 					cas_weapon
 					nav_bomber_weapon
 					mine_warfare_offense
@@ -1694,7 +1692,6 @@ equipments = {
 				allowed_module_categories = {
 					tac_weapon
 					fighter_weapon
-					interceptor_weapon
 					recon_camera
 				}
 			}
@@ -1705,7 +1702,6 @@ equipments = {
 					recon_camera
 					tac_weapon
 					fighter_weapon
-					interceptor_weapon
 					cas_weapon
 					nav_bomber_weapon
 					mine_warfare_offense
@@ -1717,7 +1713,6 @@ equipments = {
 					recon_camera
 					tac_weapon
 					fighter_weapon
-					interceptor_weapon
 					cas_weapon
 					nav_bomber_weapon
 					mine_warfare_offense
@@ -1729,7 +1724,6 @@ equipments = {
 					recon_camera
 					tac_weapon
 					fighter_weapon
-					interceptor_weapon
 					cas_weapon
 					nav_bomber_weapon
 					mine_warfare_offense
@@ -1826,7 +1820,7 @@ equipments = {
 				allowed_module_categories = {
 					tac_weapon
 					fighter_weapon
-					interceptor_weapon
+					
 					recon_camera
 				}
 			}
@@ -1836,7 +1830,6 @@ equipments = {
 				allowed_module_categories = {
 					recon_camera
 					fighter_weapon
-					interceptor_weapon
 					tac_weapon
 					cas_weapon
 					nav_bomber_weapon
@@ -1848,7 +1841,6 @@ equipments = {
 				allowed_module_categories = {
 					recon_camera
 					fighter_weapon
-					interceptor_weapon
 					tac_weapon
 					cas_weapon
 					nav_bomber_weapon
@@ -1860,7 +1852,6 @@ equipments = {
 				allowed_module_categories = {
 					recon_camera
 					fighter_weapon
-					interceptor_weapon
 					tac_weapon
 					cas_weapon
 					nav_bomber_weapon
@@ -1873,7 +1864,6 @@ equipments = {
 				allowed_module_categories = {
 					recon_camera
 					fighter_weapon
-					interceptor_weapon
 					tac_weapon
 					cas_weapon
 					nav_bomber_weapon
