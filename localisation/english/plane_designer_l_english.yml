@@ -508,15 +508,15 @@
  r56rp_engine_skincooled_1x:0 "Evaporative-cooled Piston Engine"
  r56rp_engine_skincooled_1x_desc:0 "A radical idea. Coolant is kept pressurized in the engine, which allows it to remain liquid even when exceeding its temperature boiling point. Coolant takes heat from the engine, then dumps it into special tanks in the wings where in turn the heat can leave into the atmoshpere. This solution promises an almost entirely drag-less cooling system, however since almost the entire plane is used to cool the engine, any hits received will be deadly to the propulsion system."
  r56rp_engine_rocket_early_1x:0 "Early Rocket Engine"
- r56rp_engine_rocket_early_1x_desc:0 "WIP"
+ r56rp_engine_rocket_early_1x_desc:0 "Utilizing a number of very volatile fuels and a similarly unstable oxidizer, this engine is capable of putting out a very large amount of thrust to propel a plane to high speeds, at the cost of range."
  r56rp_engine_rocket_late_1x:0 "Late Rocket Engine"
- r56rp_engine_rocket_late_1x_desc:0 "WIP"
+ r56rp_engine_rocket_late_1x_desc:0 "Improvements in the combustion chamber and slight alterations in the fuel mixture allow even higher performance, with a corresponding drop in range."
 
  ##Engine Tech
  r56rp_jet_engines:0 "Jet Engines"
- r56rp_jet_engines_desc:0 "WIP"
+ r56rp_jet_engines_desc:0 "This radical new technology abandons the traditional method of pistons burning fuel in cycles and simply continuously performs the combustion steps in specific parts of the engine. This solution is lighter, and thanks to the high air throughput allows to reach astonishing speeds."
  r56rp_jet_engines_2:0 "Reheating Jet Engines"
- r56rp_jet_engines_2_desc:0 "WIP"
+ r56rp_jet_engines_2_desc:0 "By dumping fuel into the superheated engine exhaust, we can increase the engine thrust, for a minimal weight and cost increase. This method is unfortunately terribly inefficient increasing combat fuel use dramatically."
  
  ##Wing Modules
  r56rp_wing_monoplane_straight:0 "Straight Wing Monoplane"
