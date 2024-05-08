@@ -17,7 +17,7 @@ focus_tree = {
 	focus = {
 		id = crypto_bomb_focus
 		available = {
-			has_war_with = GER
+			has_war_with = POL
 			POL = {
 				NOT = { is_in_faction_with = GER } #We assume POL will help vs Germany unless they are allied to them
 			}
