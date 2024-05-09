@@ -7,4 +7,7 @@ opinion_modifiers = {
 	r56rp_GER_ENG_allowed_navy = { value = 20 }
 	r56rp_GER_ENG_defied_navy = { value = -35 }
 	r56rp_GER_naval_buildup = { value = -30 }
+	r56rp_english_aid = { value = 20 }
+	r56rp_accepted_embargo_aid = { value = 10 }
+	r56rp_declined_embargo_aid = { value = -10 }
 }
