@@ -1,0 +1,138 @@
+﻿add_namespace = rpbritain
+##RT56RP
+country_event = { #commie event to France and portugal to ask for an embargo on nationalist spain
+	id = rpbritain.1
+	title = rpbritain.1.t
+	desc = rpbritain.1.d
+	picture = GFX_report_event_stalin_01
+
+	is_triggered_only = yes
+	
+	option = { #yes
+		name = rpbritain.1.a
+		send_embargo = SPA
+		ENG = {
+			country_event = { 
+				id = rpbritain.2
+			 	days = 1 
+			}
+		}
+	}
+	option = { #no
+		name = rpbritain.1.b
+		ENG = {
+			country_event = { 
+				id = rpbritain.3
+			 	days = 1 
+			}
+		}
+	}
+}
+country_event = { #accepts event 1
+	id = rpbritain.2
+	title = rpbritain.2.t
+	desc = rpbritain.2.d
+	picture = GFX_report_event_stalin_01
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = rpbritain.2.a
+		add_opinion_modifier = {
+			target = ROOT
+			modifier = r56rp_accepted_embargo_aid 
+		}
+	}
+	
+}
+country_event = { #declines event 1
+	id = rpbritain.3
+	title = rpbritain.3.t
+	desc = rpbritain.3.d
+	picture = GFX_report_event_stalin_01
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = rpbritain.3.a
+		add_opinion_modifier = {
+			target = ROOT
+			modifier = r56rp_declined_embargo_aid
+		}
+	}
+}
+
+country_event = { #for bill alexander
+	id = rpbritain.4
+	title = rpbritain.4.t
+	desc = rpbritain.4.d
+	picture = GFX_report_event_stalin_01
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = rpbritain.4.a
+	}
+}
+country_event = { #battle of carfax street 
+	id = rpbritain.5
+	title = rpbritain.5.t
+	desc = rpbritain.5.d
+	picture = GFX_report_event_stalin_01
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = rpbritain.5.a
+		random_list = {
+				50 = {
+					country_event = { id = rpbritain.6 days = 1 }
+				}
+				50 = {
+					country_event = { id = rpbritain.7 days = 1 }
+				}
+			}
+	}
+}
+country_event = { #battle of carfax street  success
+	id = rpbritain.6
+	title = rpbritain.6.t
+	desc = rpbritain.6.d
+	picture = GFX_report_event_stalin_01
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = rpbritain.6.a
+		add_stability = -0.02
+		add_popularity = {
+    			ideology = fascism
+    			popularity = -0.075
+			}
+			add_popularity = {
+    			ideology = communism
+    			popularity = 0.05
+			}
+	}
+}
+country_event = { #battle of carfax street  failer
+	id = rpbritain.7
+	title = rpbritain.7.t
+	desc = rpbritain.7.d
+	picture = GFX_report_event_stalin_01
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = rpbritain.7.a
+		add_stability = -0.05
+		add_popularity = {
+    			ideology = communism
+    			popularity = -0.075
+			}
+			add_popularity = {
+    			ideology = fascism
+    			popularity = 0.05
+			}
+	}
+}

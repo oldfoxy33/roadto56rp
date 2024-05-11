@@ -15041,14 +15041,9 @@ focus_tree = {
 			factor = 1
 		}	
 		completion_reward = {
-			add_stability = -0.05
-			add_popularity = {
-    			ideology = fascism
-    			popularity = -0.05
-			}
-			add_popularity = {
-    			ideology = communism
-    			popularity = 0.05
+				
+			country_event = {
+				id = 
 			}
 		}
 		
@@ -15069,14 +15064,9 @@ focus_tree = {
 			factor = 1
 		}	
 		completion_reward = {
-			add_stability = -0.05
-			add_popularity = {
-    			ideology = fascism
-    			popularity = -0.05
-			}
-			add_popularity = {
-    			ideology = communism
-    			popularity = 0.05
+			country_event = {
+				id = rpbritain.5
+				days = 1
 			}
 		}
 		
@@ -15171,7 +15161,7 @@ focus_tree = {
 			factor = 1
 		}	
 		completion_reward = {
-			
+			send_embargo = SPA
 			SPR = {
 				add_political_power = 100
 				add_opinion_modifier = {
@@ -15181,13 +15171,13 @@ focus_tree = {
 			}
 			FRA = {
 				country_event = { 
-					id = rt56rp_britain.31
+					id = rpbritain.1
 				 	days = 1 
 				}
 			}
 			POR = {
 				country_event = { 
-					id = rt56rp_britain.31
+					id = rpbritain.1
 				 	days = 1 
 				}
 			}
@@ -15210,7 +15200,10 @@ focus_tree = {
 			factor = 1
 		}	
 		completion_reward = {
-			
+			country_event = {
+				id = rpbritain.4
+				days = 1
+			}
 		}
 	}
 
@@ -15227,81 +15220,13 @@ focus_tree = {
 
 	#END OF RT56RP PATH
 
-	focus = {
-		id = ENG_liberate_the_home_of_marx
-		prerequisite = { focus = ENG_the_one_true_revolution focus = ENG_preparing_the_second_front }
-		available = {
-			is_subject = no
-			country_exists = GER
-			NOT = { is_in_faction_with = GER }
-		}
-		will_lead_to_war_with = GER
-		icon = GFX_focus_eng_liberate_the_home_of_marx
-		x = 1
-		y = 1
-		relative_position_id = ENG_the_one_true_revolution
-		cost = 10
-		ai_will_do = {
-			factor = 1
-		}	
-		completion_reward = {
-			create_wargoal = {
-				type = puppet_wargoal_focus
-				target = GER
-				expire = 0
-			}
-		}
-		search_filters = { FOCUS_FILTER_ANNEXATION }
-	}
+	
 
-	### COMMUNIST SHARED FINISHER BRANCH ###
+	
 
-	focus = {
-		id = ENG_liberate_the_home_of_marx
-		prerequisite = { focus = ENG_the_one_true_revolution focus = ENG_preparing_the_second_front }
-		available = {
-			is_subject = no
-			country_exists = GER
-			NOT = { is_in_faction_with = GER }
-		}
-		will_lead_to_war_with = GER
-		icon = GFX_focus_eng_liberate_the_home_of_marx
-		x = 1
-		y = 1
-		relative_position_id = ENG_the_one_true_revolution
-		cost = 10
-		ai_will_do = {
-			factor = 1
-		}	
-		completion_reward = {
-			create_wargoal = {
-				type = puppet_wargoal_focus
-				target = GER
-				expire = 0
-			}
-		}
-		search_filters = { FOCUS_FILTER_ANNEXATION }
-	}
+	
 
-	focus = {
-		id = ENG_spirit_of_the_industrial_revolution
-		prerequisite = { focus = ENG_soviet_cooperation focus = ENG_liberate_the_home_of_marx focus = ENG_crush_the_dream }
-		available = {
-
-		}
-		icon = GFX_goal_generic_soviet_construction
-		x = -3
-		y = 1
-		relative_position_id = ENG_liberate_the_home_of_marx
-		cost = 10
-		ai_will_do = {
-			factor = 1
-		}	
-		completion_reward = {
-			add_ideas = ENG_spirit_of_the_industrial_revolution_idea
-		}
-		search_filters = { FOCUS_FILTER_INDUSTRY }
-	}
+	
 	focus = {
 		id = ENG_opposition_to_the_national_government
 		icon = GFX_focus_eng_concessions_to_the_trade_unions
