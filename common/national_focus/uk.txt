@@ -15043,7 +15043,8 @@ focus_tree = {
 		completion_reward = {
 				
 			country_event = {
-				id = 
+				id = rpbritain.8
+				days = 1
 			}
 		}
 		

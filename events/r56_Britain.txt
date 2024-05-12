@@ -85,13 +85,14 @@ country_event = { #battle of carfax street
 	option = { 
 		name = rpbritain.5.a
 		random_list = {
-				50 = {
-					country_event = { id = rpbritain.6 days = 1 }
-				}
-				50 = {
-					country_event = { id = rpbritain.7 days = 1 }
-				}
+			50 = {
+				country_event = { id = rpbritain.6 days = 1 }
 			}
+			50 = {
+				country_event = { id = rpbritain.7 days = 1 }
+			}
+		}
+		
 	}
 }
 country_event = { #battle of carfax street  success
@@ -106,13 +107,17 @@ country_event = { #battle of carfax street  success
 		name = rpbritain.6.a
 		add_stability = -0.02
 		add_popularity = {
-    			ideology = fascism
-    			popularity = -0.075
-			}
-			add_popularity = {
-    			ideology = communism
-    			popularity = 0.05
-			}
+    		ideology = fascism
+    		popularity = -0.075
+		}
+		add_popularity = {
+    		ideology = communism
+    		popularity = 0.05
+		}
+		add_timed_idea = {
+			idea = ENG_oxford_support_rt56rp_idea 
+			days = 720
+		}
 	}
 }
 country_event = { #battle of carfax street  failer
@@ -127,12 +132,107 @@ country_event = { #battle of carfax street  failer
 		name = rpbritain.7.a
 		add_stability = -0.05
 		add_popularity = {
-    			ideology = communism
-    			popularity = -0.075
-			}
-			add_popularity = {
+    		ideology = communism
+    		popularity = -0.075
+		}
+		add_popularity = {
     			ideology = fascism
     			popularity = 0.05
+		}
+
+		add_timed_idea = {
+			idea = ENG_oxford_opposed_rt56rp_idea 
+			days = 720
+		}
+		
+	}
+}
+country_event = { #battle of cable street
+	id = rpbritain.8
+	title = rpbritain.8.t
+	desc = rpbritain.8.d
+	picture = GFX_report_event_stalin_01
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = rpbritain.8.a
+		random_list = {
+			50 = {
+				country_event = { id = rpbritain.9 days = 1 }
 			}
+			50 = {
+				country_event = { id = rpbritain.10 days = 1 }
+			}
+		}
+	}
+}
+country_event = { #battle of cable street  success
+	id = rpbritain.9
+	title = rpbritain.9.t
+	desc = rpbritain.9.d
+	picture = GFX_report_event_stalin_01
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = rpbritain.9.a
+		add_stability = -0.02
+		add_popularity = {
+    		ideology = fascism
+    		popularity = -0.075
+		}
+		add_popularity = {
+    		ideology = communism
+    		popularity = 0.05
+		}
+		add_timed_idea = {
+			idea = ENG_cable_street_victory_rt56rp_idea
+			days = 60
+		}
+	}
+}
+country_event = { #battle of cable street  failer
+	id = rpbritain.10
+	title = rpbritain.10.t
+	desc = rpbritain.10.d
+	picture = GFX_report_event_stalin_01
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = rpbritain.10.a
+		add_stability = -0.05
+		add_popularity = {
+    		ideology = communism
+    		popularity = -0.075
+		}
+		add_popularity = {
+    			ideology = fascism
+    			popularity = 0.05
+		}
+
+		add_timed_idea = {
+			idea = ENG_cable_street_failer_rt56rp_idea
+			days = 60
+		}
+		
+	}
+}
+country_event = { #mosley civil war
+	id = rpbritain.11
+	title = rpbritain.11.t
+	desc = rpbritain.11.d
+	picture = GFX_report_event_stalin_01
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = rpbritain.11.a
+		start_civil_war = {
+    		ideology = fascism
+    		size = 0.1
+    		states = 126 128  338 125
+    	}
 	}
 }
