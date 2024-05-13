@@ -4,7 +4,7 @@ country_event = { #commie event to France and portugal to ask for an embargo on 
 	id = rpbritain.1
 	title = rpbritain.1.t
 	desc = rpbritain.1.d
-	picture = GFX_report_event_stalin_01
+	picture = GFX_report_event_pierre_laval
 
 	is_triggered_only = yes
 	

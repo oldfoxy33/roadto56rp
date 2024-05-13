@@ -7,3 +7,56 @@
   ENG_reform_the_raj:0 "Re-instate the British Raj"
   ENG_reform_the_raj_desc:0 "The reclamation of the Crown Jewel of the Empire gives us the ability to re-instate the fallen colonial goverment, Allowing us to focus on other territories and issues at hand"
   ENG_reform_the_raj_tt:0 "We or our Indian Subject must control all previously held lands by the British Raj"
+
+  #COMMUNIST UK TREE
+
+  # Focuses
+
+  ENG_battle_of_carfax_street_rt56rp:0 "Battle of Carfax Street"
+  ENG_battle_of_carfax_street_rt56rp_desc:0 "As tensions escalate in Oxford, the impending clash between the British Union of Fascists (BUF) and anti-fascist groups, looms over Carfax Street. The precise catalyst for the conflict remains debated, yet its significance is undeniable. With the city bracing for violence, the outcome of this imminent struggle will shape the course of Oxford's political landscape."
+  ENG_battle_of_cable_street_rt56rp:0 "Battle of Cable Street"
+  ENG_battle_of_cable_street_rt56rp_desc:0 "The Battle of Cable Street becomes a defining moment in the struggle between communism and fascism, as a united front of locals and activists, including communists and trade unionists, confront Oswald Mosley's British Union of Fascists"
+  ENG_mosleyite_purge_rt56rp:0 "Suppress Fascist Elements"
+  ENG_mosleyite_purge_rt56rp_desc:0 "As Mosley and his party lose their influence in the UK, we can exert pressure on the Conservative Party to enact legislation prohibiting fascism in our nation."
+  ENG_spanish_civil_war_involvement_rt56rp:0 "Send Assistance to Spain"
+  ENG_spanish_civil_war_involvement_rt56rp_desc:0 "As the Spanish Civil War continues, it is imperative that we exert pressure on the Conservative Party to deploy volunteers in order to prevent the fascist takeover of Spain."
+  ENG_humanitarian_aid_rt56rp:0 "Humanitarian Aid"
+  ENG_humanitarian_aid_rt56rp_desc:0 "We need to assist the Republicans in maintaining their war effort by helping them sustain their infrastructure, thus ensuring the continuity of their military operations."
+  ENG_political_advocacy_rt56rp:0 "Spanish Embargo Initiative"
+  ENG_political_advocacy_rt56rp_desc:0 "To intensify pressure on the nationalists, it is imperative to advocate for Portugal and France to impose an embargo on their trade, thereby disrupting their commercial activities."
+  ENG_recruit_bill_alexander_rt56rp:0 "Recruit Bill Alexander"
+  ENG_recruit_bill_alexander_rt56rp_desc:0 "Bill Alexander has become widely recognized for his contributions during the Spanish Civil War. His extensive experience in modern combat renders him a valuable asset to the British Army."
+
+
+
+
+
+  #Ideas
+  ENG_mosleyite_purge_rt56rp_idea:0 "Purge of Mosleyite Influence"
+  ENG_spanish_civil_war_involvement_rt56rp_idea:0 "Solidarity Battalion for Spain"
+  ENG_humanitarian_aid_england_rt56rp_idea:0 "Humanitarian Aid"
+  ENG_humanitarian_aid_spain_rt56rp_idea:0 "Humanitarian Aid"
+  ENG_oxford_support_rt56rp_idea:0 "Oxford Support"
+  ENG_oxford_support_rt56rp_idea_desc:0 "The recent victory in Oxford has prompted the university to pledge its support for the communist movement."
+  ENG_oxford_opposed_rt56rp_idea:0 "Oxford Opposed"
+  ENG_oxford_opposed_rt56rp_idea_desc:0 "Our recent setback in Oxford has led the university to oppose the communist movement."
+  ENG_cable_street_victory_rt56rp_idea:0 "Victory in Cable Street"
+  ENG_cable_street_failer_rt56rp_idea:0 "Defeat in Cable Street"
+
+
+
+
+  #Events
+
+  rpbritain.1.t:0 "[ENG.GetName] requests an embargo againt [SPA.GetName]"
+  rpbritain.1.d:0 "The [ENG.GetAdjective] Government has requested our nation for an embargo against the nationalist Spain. The fascists have gained a significant amount of land since the start of the war. An embargo could disrupt their war effort and provide an advantage to the Republicans."
+  rpbritain.1.a:0 "We shall comply with the [ENG.GetAdjective]"
+  rpbritain.1.b:0 "We shall remain neutral to protect our intrests"
+
+  rpbritain.2.t:0 "[THIS.GetName] has accepted to embargo on [SPA.GetName]"
+  
+
+
+
+
+

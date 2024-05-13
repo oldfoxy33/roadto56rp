@@ -30,7 +30,7 @@ ideas = {
 			
 			removal_cost = -1
 
-			picture = generic_army_war_college
+			picture = SPR_anti_fascist_crusade
 			
 			modifier = {
 				fascism_drift = -0.1
@@ -69,7 +69,7 @@ ideas = {
 			
 			removal_cost = -1
 
-			picture = generic_army_war_college
+			picture = man_five_year_plan_industry
 			
 			modifier = {
 				industrial_factory_donations = -2
@@ -87,7 +87,7 @@ ideas = {
 			
 			removal_cost = -1
 
-			picture = generic_army_war_college
+			picture = generic_supply_depot
 			
 			modifier = {
 				industrial_factory_donations = 2
@@ -109,7 +109,7 @@ ideas = {
 			
 			removal_cost = -1
 
-			picture = generic_army_war_college
+			picture = SOV_atomic_bomb_project
 			
 			modifier = {
 				research_speed_factor = 0.05
@@ -127,7 +127,7 @@ ideas = {
 			
 			removal_cost = -1
 
-			picture = generic_army_war_college
+			picture = generic_communism_banned
 			
 			modifier = {
 				research_speed_factor = -0.05
@@ -145,7 +145,7 @@ ideas = {
 			
 			removal_cost = -1
 
-			picture = generic_army_war_college
+			picture = gre_agricultural_communes
 			
 			modifier = {
 				communism_drift = 0.20
@@ -163,7 +163,7 @@ ideas = {
 			
 			removal_cost = -1
 
-			picture = generic_army_war_college
+			picture = generic_communism_banned
 			
 			modifier = {
 				communism_drift = -0.20

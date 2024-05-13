@@ -15032,7 +15032,7 @@ focus_tree = {
 			
 		}
 		
-		icon = GFX_focus_eng_liberate_the_home_of_marx
+		icon = GFX_focus_SWE_refuge_for_revolutionaries
 		x = 1
 		y = 1
 		relative_position_id = ENG_concessions_to_the_trade_unions
@@ -15056,7 +15056,7 @@ focus_tree = {
 			
 		}
 		
-		icon = GFX_focus_eng_liberate_the_home_of_marx
+		icon = GFX_focus_generic_socialist_science
 		x = -1
 		y = 1
 		relative_position_id = ENG_concessions_to_the_trade_unions
@@ -15077,10 +15077,10 @@ focus_tree = {
 		prerequisite = { focus = ENG_battle_of_cable_street_rt56rp }
 		prerequisite = { focus = ENG_battle_of_carfax_street_rt56rp }
 		available = {
-			ruling_party = communist
+		
 		}
 		
-		icon = GFX_focus_eng_liberate_the_home_of_marx
+		icon = GFX_focus_POL_ban_nazi_party
 		x = 0
 		y = 3
 		relative_position_id = ENG_concessions_to_the_trade_unions
@@ -15103,7 +15103,7 @@ focus_tree = {
 			SPR_scw_in_progress = yes
 		}
 		
-		icon = GFX_focus_eng_liberate_the_home_of_marx
+		icon = GFX_focus_generic_befriend_communist_spain_focus
 		x = 4
 		y = 1
 		relative_position_id = ENG_concessions_to_the_trade_unions
@@ -15125,7 +15125,7 @@ focus_tree = {
 			SPR_scw_in_progress = yes
 		}
 		
-		icon = GFX_focus_eng_liberate_the_home_of_marx
+		icon = GFX_goal_generic_construct_infrastructure
 		x = 1
 		y = 1
 		relative_position_id = ENG_spanish_civil_war_involvement_rt56rp
@@ -15153,7 +15153,7 @@ focus_tree = {
 			SPR_scw_in_progress = yes
 		}
 		
-		icon = GFX_focus_eng_liberate_the_home_of_marx
+		icon = GFX_focus_eng_concessions_to_the_trade_unions
 		x = -1
 		y = 1
 		relative_position_id = ENG_spanish_civil_war_involvement_rt56rp
@@ -15192,7 +15192,7 @@ focus_tree = {
 			SPR_scw_in_progress = no
 		}
 		
-		icon = GFX_focus_eng_liberate_the_home_of_marx
+		icon = GFX_focus_generic_commonwealth_build_infantry
 		x = 0
 		y = 2
 		relative_position_id = ENG_spanish_civil_war_involvement_rt56rp
